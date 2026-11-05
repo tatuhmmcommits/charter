@@ -1,0 +1,28 @@
+{
+	"type": "minecraft:block",
+	"pools": [
+		{
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "charter:divine_dominance"
+				}
+			],
+			"conditions": [
+				{
+					"condition": "minecraft:block_state_property",
+					"block": "charter:divine_dominance",
+					"properties": {
+						"half": "lower"
+					}
+				},
+				{
+					"condition": "minecraft:survives_explosion"
+				}
+			]
+		}
+	],
+	"random_sequence": "charter:blocks/divine_dominance"
+}

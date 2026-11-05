@@ -1,0 +1,10 @@
+{
+	"variants": {
+		"half=lower": {
+			"model": "charter:block/divine_dominance_lower"
+		},
+		"half=upper": {
+			"model": "charter:block/divine_dominance_upper"
+		}
+	}
+}
